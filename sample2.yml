@@ -1,6 +1,6 @@
 ---
 -name: This is a hello-world example
-hosts: 10.138.109.24,10.138.109.25,10.138.109.26
+hosts: 54.196.39.116,
 tasks:
 -name: create a file called '/tmp/testfile.txt' with the content 'hello world'
 copy: content="hello world\n" dest=/tmp/testfile.txt
